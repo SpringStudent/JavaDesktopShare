@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class CommandTask {
 
-    public static final String FFMPEG_DESKTOP_CMD = "%s -f gdigrab -i desktop -vcodec mpeg1video  -preset:v ultrafast -tune:v zerolatency -q 5 -r 25 -f mpegts %s";
+    public static final String FFMPEG_DESKTOP_CMD = "%s -f gdigrab -i desktop -vcodec mpeg1video  -preset:v ultrafast -tune:v zerolatency -q 10 -r 25 -f mpegts %s";
     public static final String FFMPEG_CMOUTPUT_REGEX="frame=.*fps=.*speed=.*";
     public static final String TEXTFIELD_REGEX="http://.*/receive?\\?id=.*";
 
