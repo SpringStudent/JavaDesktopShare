@@ -36,9 +36,12 @@ public class DesktopServer implements ApplicationRunner {
     @PostMapping("/receive")
     @ResponseBody
     public void receive(HttpServletRequest request, String id) throws Exception {
+
         ServletInputStream inputStream = request.getInputStream();
         ControllerInputStream ct = new ControllerInputStream(inputStream);
-        client.put(id, ct);
+        if (client.putIfAbsent(id, ct) != null) {
+            throw new Exception("duplicate id");
+        }
         int len = -1;
         while ((len = inputStream.available()) != -1) {
             Thread.sleep(1);
