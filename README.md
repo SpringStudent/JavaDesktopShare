@@ -27,7 +27,7 @@
 
 ### step5
 
-`open http://{yourip}:{yourport}/index.html,then choose your client to view`
+`in your browser visit http://{your desktopserver ip}:{your desktopserver port}/index.html,then choose your client to view`
 
 ![step4](step5.png)
 
