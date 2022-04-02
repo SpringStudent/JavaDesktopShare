@@ -23,10 +23,14 @@
 
 ### step4
 
-`open http://{yourip}:{yourport}/index.html,then choose your client to view`
-
-![step4](step4.png)
+`modify index.html ajax http url and canvas ws url to your deploy desktopserver service ip port`
 
 ### step5
+
+`open http://{yourip}:{yourport}/index.html,then choose your client to view`
+
+![step4](step5.png)
+
+### step6
 
 `now you can enjoy it`
