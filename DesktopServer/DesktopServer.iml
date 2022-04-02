@@ -53,5 +53,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-websocket:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-websocket:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.42.Final" level="project" />
   </component>
 </module>
