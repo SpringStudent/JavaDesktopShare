@@ -105,9 +105,10 @@ public class ShareDialog extends JDialog implements ActionListener, WindowListen
                 connected = true;
                 if (!connectButton.isEnabled()) {
                     connectButton.setEnabled(true);
-                    connectButton.setText("连接到");
+
                 }
             }
+            connectButton.setText("连接到");
         }
     }
 }
