@@ -2,7 +2,7 @@
 
 ### step1
 
-`run DeskstopServerStart.java`
+`modify index.html ajax http url and canvas ws url to your deploy desktopserver service ip port,then run DeskstopServerStart.java`
 
 ### step2
 
@@ -21,16 +21,13 @@
 
 ![step3-2](step3-2.png)
 
+
 ### step4
-
-`modify index.html ajax http url and canvas ws url to your deploy desktopserver service ip port`
-
-### step5
 
 `in your browser visit http://{your desktopserver ip}:{your desktopserver port}/index.html,then choose your client to view`
 
-![step4](step5.png)
+![step4](step4.png)
 
-### step6
+### step5
 
 `now you can enjoy it`
