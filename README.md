@@ -13,7 +13,7 @@
 `in desktop client open menu`
 
 ![step3](step3.png)
-`enter dialog,then input your desktop server url like http://172.16.1.200:11111/receive?id=xxx,note that id cannot chinese language or duplicate`
+`enter dialog,then input your desktop server url like http://172.16.1.72:11111/receive?id=xxx,note that id cannot chinese language or duplicate`
 
 ![step3-1](step3-1.png)
 

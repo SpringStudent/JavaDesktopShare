@@ -43,8 +43,8 @@ public class DesktopClient extends JFrame {
     }
 
     public static void main(String[] args) {
-        //修改为自己的ffmpeg路径
-        String ffmpeg = "D:\\intellij\\workspace-cy\\JavaDesktopShare\\ffmpeg.exe";
+        //TODO 修改为自己的ffmpeg路径
+        String ffmpeg = "D:\\intellij\\workspace-opengauss\\JavaDesktopShare\\ffmpeg.exe";
         if (args != null && args.length > 0) {
             ffmpeg = args[0];
         }
