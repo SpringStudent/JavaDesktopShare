@@ -28,6 +28,7 @@ public class CommandTask {
      * 是否在运行
      */
     private boolean running;
+
     /**
      * cmd监听器
      */
@@ -39,6 +40,7 @@ public class CommandTask {
     public interface CmdListener {
         void notify(CommandTask commandTask);
     }
+
 
     public void setCmdListener(CmdListener cmdListener) {
         this.cmdListener = cmdListener;

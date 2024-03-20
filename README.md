@@ -2,32 +2,28 @@
 
 ### step1
 
-`modify index.html ajax http url and canvas ws url to your deploy desktopserver service ip port,then run DeskstopServerStart.java`
+`将index.html中的http地址和websocket地址修改为你本地的DesktopServer服务启动地址`
 
 ### step2
 
-`modify ffmpeg path in DesktopClient.java,then run DesktopClient.java`
+`在DesktopClient.java中修改ffmpeg的路径，然后运行DesktopClient.java。`
 
 ### step3
 
-`in desktop client open menu`
+`在桌面客户端打开菜单`
 
 ![step3](step3.png)
-`enter dialog,then input your desktop server url like http://172.16.1.72:11111/receive?id=xxx,note that id cannot chinese language or duplicate`
+`进入对话框，然后输入您的桌面服务器URL，如 http://172.16.1.72:11111/receive?id=xxx 请注意，id不能包含中文或重复。`
 
 ![step3-1](step3-1.png)
 
-`click button and wait for success`
+`点击按钮然后等待连接成功`
 
 ![step3-2](step3-2.png)
 
 
 ### step4
 
-`in your browser visit http://{your desktopserver ip}:{your desktopserver port}/index.html,then choose your client to view`
+`在您的浏览器中访问 http://{您的桌面服务器IP}:{您的桌面服务器端口}/index.html，然后选择您的客户端进行查看。`
 
 ![step4](step4.png)
-
-### step5
-
-`now you can enjoy it`
